@@ -1,0 +1,22 @@
+{
+  "name": "testazone-support-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "set-webhook": "node scripts/set-webhook.js"
+  },
+  "author": "AlienZone",
+  "license": "UNLICENSED",
+  "private": true,
+  "description": "AlienZone Telegram support bot",
+  "dependencies": {
+    "grammy": "^1.41.1",
+    "openai": "^6.31.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "@vercel/node": "^5.6.15",
+    "typescript": "^5.9.3"
+  }
+}
